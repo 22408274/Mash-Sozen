@@ -1111,50 +1111,70 @@ body.fullscreen-mode #song-lyrics {
   }
 }
 /* ===== MOBILE COMPACT SONG PAGE ===== */
-/* ===== FIX TEXT + CHORDS ON MOBILE ===== */
 @media (max-width: 768px) {
 
-  /* контейнер текста и аккордов */
+  /* основной контейнер */
+  .songs-container {
+    display: block;
+    padding: 10px;
+  }
+
+  /* список песен */
+  .song-list {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .song-list input {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .song-list li {
+    padding: 6px 0;
+    font-size: 14px;
+  }
+
+  /* правая часть */
+  .song-content {
+    width: 100%;
+    padding: 0;
+  }
+
+  h1, h2, h3 {
+    margin: 8px 0;
+    font-size: 18px;
+  }
+
+  audio {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  /* текст + аккорды В СТОЛБИК */
   .lyrics-chords {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+    display: block;
   }
 
   /* текст */
   .lyrics {
-    width: 100%;
-    font-size: 15px;
-    line-height: 1.45;
-    margin: 0;
+    max-height: none;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 10px;
   }
 
-  /* блок аккордов */
+  /* аккорды */
   .chords {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    justify-content: flex-start;
-  }
-
-  /* каждая карточка аккорда */
-  .chords div {
-    width: 56px;
-    text-align: center;
-    font-size: 12px;
+    gap: 6px;
   }
 
   .chords img {
     width: 48px;
     height: auto;
   }
-
-  /* заголовки */
-  h2, h3 {
-    margin: 6px 0;
-  }
-}
 
   .chords div {
     text-align: center;
@@ -1167,7 +1187,7 @@ body.fullscreen-mode #song-lyrics {
     font-size: 13px;
     margin-bottom: 6px;
   }
-
+}
 
 
 
