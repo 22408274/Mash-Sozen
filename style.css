@@ -395,10 +395,14 @@ textarea {
 }
 
 #reviews p {
-  background: #f9f9f9;
+  background: #f8efef;
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+body.dark #reviews p {
+  background: #2a2a2a;
+  color: #f1f1f1;
 }
 
 #reviews strong {
@@ -621,6 +625,31 @@ body.dark .feedback-btn {
 body.dark .btn:hover,
 body.dark .feedback-btn:hover {
   background: #444;
+}
+/* ===== Reviews - Dark Mode Fix ===== */
+body.dark .review,
+body.dark .review p,
+body.dark .review span {
+  color: #f1f1f1;
+}
+
+body.dark .review-box,
+body.dark .review-item {
+  background: #2a2a2a;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* textarea и input в тёмной теме */
+body.dark textarea,
+body.dark input {
+  background: #1f1f1f;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+body.dark textarea::placeholder,
+body.dark input::placeholder {
+  color: #aaa;
 }
 /* ===========================
    ПОЛНОЭКРАННЫЙ РЕЖИМ
