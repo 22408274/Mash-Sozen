@@ -1087,6 +1087,29 @@ body.fullscreen-mode #song-lyrics {
     padding: 18px;
   }
 }
+/* ===== MOBILE HEADER FIX ===== */
+@media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 16px;
+    padding: 6px 8px;
+    white-space: nowrap;
+  }
+
+  nav span.separator {
+    display: none;
+  }
+
+  .logo {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+}
 
 
 
