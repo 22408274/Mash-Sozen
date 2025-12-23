@@ -1141,23 +1141,46 @@ body.fullscreen-mode #song-lyrics {
 }
 @media (max-width: 768px) {
 
+  /* контейнер текста */
+  .song-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* блок "Tekst" */
+  .song-boxes .box {
+    padding: 12px;
+  }
+
+  /* ползунок */
   .lyrics-size-control {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
-    font-size: 14px;
+    gap: 8px;
+    margin: 6px 0 10px;
+    font-size: 13px;
   }
 
-  .lyrics-size-control input[type="range"] {
+  .lyrics-size-control span {
+    white-space: nowrap;
+  }
+
+  .lyrics-size-control input {
     flex: 1;
+    max-width: 100%;
   }
 
+  /* текст песни */
   #song-lyrics {
+    font-size: 13px;
+    line-height: 1.4;
     white-space: pre;
     overflow-x: auto;
+    max-width: 100%;
   }
 }
+
 
 
 
