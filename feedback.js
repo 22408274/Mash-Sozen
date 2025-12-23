@@ -45,7 +45,7 @@ window.adminLogin = function () {
   document.getElementById("send-review").onclick = async () => {
     const comment = document.getElementById("comment").value.trim();
     if (!selectedRating || !comment) {
-      alert("Hemû qadan pur bike");
+      alert("Fukaδ pur kinxu bad, sitoraen marinês!");
       return;
     }
 
@@ -99,7 +99,7 @@ window.adminLogin = function () {
   clearBtn.onclick = () => {
     const pass = prompt("Admin parol:");
     if (pass !== ADMIN_PASSWORD) {
-      alert("Parol xeta");
+      alert("Parol xato");
       return;
     }
     isAdmin = true;
