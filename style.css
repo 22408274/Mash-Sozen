@@ -1050,6 +1050,43 @@ body.fullscreen-mode #song-lyrics {
   background: rgba(255, 255, 255, 0.14);
   transform: translateY(-2px);
 }
+@media (max-width: 768px) {
+
+  .features-wrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .features-list {
+    width: 100%;
+  }
+
+  .feature-card {
+    width: 100%;
+    padding: 18px;
+    font-size: 16px;
+  }
+
+  .feature-card h3 {
+    font-size: 18px;
+  }
+
+  .feature-card p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .cta-box {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .cta-btn {
+    width: 100%;
+    font-size: 20px;
+    padding: 18px;
+  }
+}
 
 
 
