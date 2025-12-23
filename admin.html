@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🛠 Admin Panel</h1>
+
+<button id="logoutBtn">🚪 Logout</button>
+
+<div id="admin-reviews"></div>
+
+<script src="feedback.js"></script>
+<script src="admin.js"></script>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+  import { getFirestore } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyD31k3q0Lk9w-0H-93OD1iDoAB9NaTmDLE",
+    authDomain: "mash-sozen.firebaseapp.com",
+    projectId: "mash-sozen",
+    storageBucket: "mash-sozen.firebasestorage.app",
+    messagingSenderId: "381991423678",
+    appId: "1:381991423678:web:8372c23abe750d9c8a58ef"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  window.db = getFirestore(app);
+</script>
+
+<script type="module" src="admin.js"></script>
+</body>
+</html>

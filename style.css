@@ -1209,6 +1209,42 @@ body.fullscreen-mode #song-lyrics {
     max-width: 100%;
   }
 }
+.review {
+  background: #f3f3f3;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.review button {
+  background: #c62828;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.review {
+  background: var(--review-bg);
+  color: var(--review-text);
+  border: 1px solid var(--review-border);
+}
+.feedback-name {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+.name-input {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
 
 
 

@@ -169,3 +169,4 @@ if (fsBtn) {
       : "⛶ Ɣulla ekran";
   });
 }
+

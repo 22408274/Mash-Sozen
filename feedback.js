@@ -1,4 +1,3 @@
-let isAdmin = false;
 const ADMIN_PASSWORD = "DODI@2006"; // можешь сменить
 import {
   collection,
@@ -25,16 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
       updateStars();
     };
   });
-window.adminLogin = function () {
-  const pass = prompt("Admin password:");
-  if (pass === ADMIN_PASSWORD) {
-    isAdmin = true;
-    alert("Rezhim Admina piδid");
-    loadFeedbacks(); // перерисовать отзывы
-  } else {
-    alert("Parol ɣalat");
-  }
-};
 
   function updateStars() {
     stars.forEach(star => {
@@ -43,35 +32,62 @@ window.adminLogin = function () {
   }
 
   document.getElementById("send-review").onclick = async () => {
-    const comment = document.getElementById("comment").value.trim();
-    if (!selectedRating || !comment) {
-      alert("Fukaδ pur kinxu bad, sitoraen marinês!");
-      return;
-    }
+    const nameInput = document.getElementById("user-name");
+const name = nameInput.value.trim();
+const comment = document.getElementById("comment").value.trim();
 
+if (!name || !selectedRating || !comment) {
+  alert("Fukaϑ pur kin");
+  return;
+}
     await addDoc(collection(db, "reviews"), {
       rating: selectedRating,
-      comment,
+      name: name,
+      text:comment,
       created: Date.now()
     });
+
+    nameInput.value = "";
+document.getElementById("comment").value = "";
 
     document.getElementById("comment").value = "";
     selectedRating = 0;
     updateStars();
-    renderReviews();
-  };
-
   async function renderReviews() {
-    reviewsDiv.innerHTML = "";
+  const q = query(collection(db, "reviews"));
+  const snapshot = await getDocs(q);
 
-    const q = query(collection(db, "reviews"), orderBy("created", "desc"));
-    const snapshot = await getDocs(q);
+  reviewsDiv.innerHTML = "";
 
-    if (snapshot.empty) {
-      reviewsDiv.innerHTML = "<p>Ɣalen nist fikreen.</p>";
-      clearBtn.style.display = "none";
-      return;
-    }
+  const list = [];
+
+  snapshot.forEach(docSnap => {
+    list.push({
+      id: docSnap.id,
+      ...docSnap.data()
+    });
+  });
+
+  // сортировка по рейтингу (5 → 1)
+  list.sort((a, b) => b.rating - a.rating);
+
+  list.forEach(r => {
+    const div = document.createElement("div");
+    div.className = "review";
+
+    div.innerHTML = `
+      <div class="review-stars">${"★".repeat(r.rating)}</div>
+      <div class="review-name"><b>${r.name}</b></div>
+      <div class="review-text">${r.text}</div>
+    `;
+
+    reviewsDiv.appendChild(div);
+  });
+}
+
+// ⬇ ВЫЗОВ ОДИН, ВНЕ ФУНКЦИЙ
+renderReviews();
+
 
     clearBtn.style.display = isAdmin ? "inline-block" : "none";
 
@@ -96,15 +112,46 @@ window.adminLogin = function () {
     });
   }
 
-  clearBtn.onclick = () => {
-    const pass = prompt("Admin parol:");
-    if (pass !== ADMIN_PASSWORD) {
-      alert("Parol xato");
-      return;
-    }
-    isAdmin = true;
-    renderReviews();
-  };
-
   renderReviews();
+});
+const adminLink = document.getElementById("admin-link");
+
+function adminLogin() {
+  const password = prompt("Admin parol");
+
+  if (password === "DODI@2006") { // ← твой пароль
+    localStorage.setItem("isAdmin", "true");
+    alert("Admin rezhim");
+    location.reload(); // ⬅️ ОЧЕНЬ ВАЖНО
+  } else {
+    alert("Parol ghalat");
+  }
+}
+document.addEventListener("DOMContentLoaded", () => {
+  const adminLink = document.getElementById("admin-link");
+
+  console.log("admin-link:", adminLink);
+  console.log("isAdmin:", localStorage.getItem("isAdmin"));
+
+  if (adminLink && localStorage.getItem("isAdmin") === "true") {
+    adminLink.style.display = "block";
+  }
+});
+window.adminLogin = function () {
+  const password = prompt("Admin parol");
+
+  if (password === ADMIN_PASSWORD) {
+    localStorage.setItem("isAdmin", "true");
+    alert("Admin rezhim");
+    location.reload();
+  } else {
+    alert("Parol ghalat");
+  }
+};
+document.addEventListener("DOMContentLoaded", () => {
+  const adminLink = document.getElementById("admin-link");
+
+  if (adminLink && localStorage.getItem("isAdmin") === "true") {
+    adminLink.style.display = "block";
+  }
 });

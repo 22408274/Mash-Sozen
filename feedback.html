@@ -47,7 +47,12 @@
     <span data-value="4">★</span>
     <span data-value="5">★</span>
   </div>
-
+<input
+  type="text"
+  id="user-name"
+  placeholder="Tu nûm..."
+  class="feedback-name"
+/>
   <textarea id="comment" placeholder="Niviš xu fikrê..." rows="4"></textarea>
 
   <button id="send-review" class="btn feedback-btn">
@@ -63,14 +68,14 @@
 </button>
 
 </div>
-
-
+<div id="admin-link" style="display:none; text-align:center; margin:30px;">
+  <a href="admin.html" class="btn">🛠 Admin Joy</a>
+</div>
 <footer>
   <p>© 2025 Mash Sozen</p>
 </footer>
 
 <script src="script.js"></script>
-<script src="feedback.js"></script>
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
   import { getFirestore } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js";
