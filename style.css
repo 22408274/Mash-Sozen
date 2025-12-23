@@ -1139,6 +1139,25 @@ body.fullscreen-mode #song-lyrics {
   }
 
 }
+@media (max-width: 768px) {
+
+  .lyrics-size-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .lyrics-size-control input[type="range"] {
+    flex: 1;
+  }
+
+  #song-lyrics {
+    white-space: pre;
+    overflow-x: auto;
+  }
+}
 
 
 

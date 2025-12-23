@@ -433,6 +433,23 @@ Načisum čāy az zibo mu ẋelaken
     strumming: "D D U U U D D U"       
 }
   ];
+document.addEventListener("DOMContentLoaded", () => {
+  const slider = document.getElementById("fontSizeSlider");
+  const lyrics = document.getElementById("song-lyrics");
+
+  if (!slider || !lyrics) return;
+
+  const savedSize = localStorage.getItem("lyricsFontSize");
+  if (savedSize) {
+    lyrics.style.fontSize = savedSize + "px";
+    slider.value = savedSize;
+  }
+
+  slider.addEventListener("input", () => {
+    lyrics.style.fontSize = slider.value + "px";
+    localStorage.setItem("lyricsFontSize", slider.value);
+  });
+});
 
 
   
