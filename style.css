@@ -1087,6 +1087,18 @@ body.fullscreen-mode #song-lyrics {
     padding: 18px;
   }
 }
+@media (max-width: 768px) {
+
+  .song-list h2 {
+    margin-bottom: 12px;   /* заголовок */
+  }
+
+  .song-list input {
+    margin-top: 0;
+    position: static;
+    transform: none;
+  }
+}
 
 
 
