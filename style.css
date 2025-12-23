@@ -1188,6 +1188,20 @@ body.fullscreen-mode #song-lyrics {
     margin-bottom: 6px;
   }
 }
+@media (max-width: 768px) {
+  .song-content {
+    grid-template-columns: 2.5fr 1fr;
+  }
+
+  .lyrics {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .chords img {
+    max-width: 60px;
+  }
+}
 
 
 
