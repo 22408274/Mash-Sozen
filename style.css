@@ -899,7 +899,7 @@ body.fullscreen-mode #song-lyrics {
   align-self: center;
   max-width: 280px;
   width: 100%;
-  padding: 30px 28px;
+  
 
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(8px);
