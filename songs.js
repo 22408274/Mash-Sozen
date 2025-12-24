@@ -431,8 +431,51 @@ Am                     D
 Načisum čāy az zibo mu ẋelaken 
 `,
     strumming: "D D U U U D D U"       
-}
-  ];
+},
+  {
+    title: "Telefůnen",
+    author: "Baboš",
+    audio: "audio/Telefonen.mp3",
+    chords: "Am F G ", 
+    lyrics: `
+ Am
+Niϑum yê boɣ darun
+  F
+Lapaϑ tu fikrêyum
+    G
+Yadum ar tu dargo
+ Am
+Xaẋaϑ tu nům qiwum
+•
+Am         F
+Telefůnen, amsoyaen
+        G        Am
+Az lap qiwdow tu naqiwen
+ Am           F
+Deδumta uz tar tu xůna
+     G            Am
+Ičay nafamt tuyat tarka
+•
+ Am
+Arjoy tu nům calům
+      F
+Lůven ya bewafo
+     G
+Amo xoiẋ mund nist
+       Am
+Sittow az wam judo
+•
+Am                    F
+Manoɣ̌, mu jůn, mak mu badnům
+       G         Am
+Tu wizůnat, yo Xuδoyjůn
+  Am                      F
+Išq canavid tund, qinaϑ xu makin
+      G           Am
+Canažiwjat, bezor xu mak `,
+    strumming: "D U B D U"
+  }
+];
 
 
   
