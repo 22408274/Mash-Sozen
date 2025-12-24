@@ -521,9 +521,21 @@ Bemanê Mawlo niko pas
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
+  const songContent = document.getElementById("songContent");
+if (songContent) {
+  songContent.classList.add("hidden"); // скрываем при первом входе
+}
 
   const songListEl = document.getElementById("song-list");
   const searchInput = document.getElementById("song-search");
+
+    const leftPanel = document.getElementById("leftPanel");
+
+  if (searchInput && leftPanel) {
+    searchInput.addEventListener("focus", () => {
+      leftPanel.classList.remove("hidden");
+    });
+  }
 
   function groupByArtist(songs) {
     return songs.reduce((acc, song) => {
@@ -555,6 +567,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const songUl = document.createElement("ul");
       songUl.className = "artist-songs";
+      songUl.style.display = "none";
 
       artistName.addEventListener("click", () => {
         songUl.style.display =
@@ -583,6 +596,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   renderSongList();
+  
 
 });
 function loadSong(song) {
