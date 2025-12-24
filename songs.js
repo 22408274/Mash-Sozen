@@ -517,6 +517,53 @@ Satul ika daf sado pas
 Bemanê Mawlo niko pas
 Čirdta čoren maδ ɣacen, ku lo?`,
     strumming: "D D U U U D D U"
+  },
+  {
+    title: " Vo zimistůn, vo Xaraɣ",
+    author: "Nekruz",
+    audio: "audio/Vo_zimiston_vo_Kharagh.mp3",
+    chords: "Am Dm E", 
+    lyrics: `
+Vo zimistůn, vo Xaraɣ
+Ẋabata mast, voyum uz
+Vo ẋitêrʓen, vo tu dargo
+Vo pê tu dargoyum uz
+
+At Xaraɣard nist yê banda
+Ɣayrê bêsoib kaden
+Woẋum at senum xuyat
+Wev kaden amroyum uz
+
+Nay, uzum ošiqê nist
+Masam awas mund tar kaxoy
+Masteyandum zimc tar zimc
+Wêδ tar wêδ, ẋoy pê ẋoy
+
+Go ijoyand gir sam
+Gota tim tar iga joy
+Bum jino, meϑin pê čidat
+Ẋab dê sut, arjoyum uz 
+
+Vo zimistůn, vo Xaraɣ
+Ẋabata mast, voyum uz
+Vo ẋitêrʓen, vo tu dargo
+Vo pê tu dargoyum uz
+
+At Xaraɣard nist yê banda
+Ɣayrê bêsoib kaden
+Woẋum at senum xuyat
+Wev kaden amroyum uz
+
+Uz Lidušard lům, nistat
+Ošiqen darδand kasal 
+Uz Lidušard lům, mazin
+Tu xubaϑ xu be ajal
+
+Uz Lidušard lům, girsa
+Girsa, waxt yastê ɣal
+Ganda ošiq, kalta saglag
+Ɣula beparwoyum uz `,
+    strumming: "D D U U D U"
   }
 ];
 

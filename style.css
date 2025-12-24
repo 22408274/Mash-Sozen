@@ -1365,6 +1365,22 @@ body.dark audio {
   display: none;
 }
 
+/* первый вход — ТОЛЬКО список */
+.songs-layout.single {
+  display: block;
+}
+
+/* режим просмотра песни */
+.songs-layout.split {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 20px;
+}
+
+/* скрываем правую часть при первом входе */
+.songs-layout.single .song-content {
+  display: none;
+}
 
 
 
