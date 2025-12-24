@@ -600,6 +600,7 @@ function loadSong(song) {
     audio.src = song.audio;
     audio.load();
   }
+  document.getElementById("songContent").classList.remove("hidden");
 }
 
 function renderChords(chordsText) {

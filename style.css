@@ -1361,6 +1361,9 @@ body.dark .box {
 body.dark audio {
   filter: invert(1) hue-rotate(180deg);
 }
+.hidden {
+  display: none;
+}
 
 
 
