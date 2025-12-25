@@ -481,41 +481,68 @@ Canažiwjat, bezor xu mak `,
     audio: "audio/Chirdta_choren.mp3",
     chords: "C G Am F", 
     lyrics: `
+C
 Ar yenakard xu kallāyum
+G        Am        
 Ajab bamazā ɣiδayum
+F              G         C     G
 Čirdta čoren maδ ɣacen, ku lo?
-
+•
+C
 Zindagê farq az fuk sůgen
+G             Am
 Čordor, siyo cem-virůɣ̌en
+F              G          C    G
 Čirdta čoren maδ ɣacen, ku lo?
-
+•
+C
 Ilavê molê dunyo yod
+G            Am
 Ɣulůmê xurd čidům šo yod
+F               G          C    G
 Čay bowar kiẋt, wam diland iku?
-
+•
+C
 Manoyê ikdizga koren
+G           Am
 Yanê xubaϑta xurd čoren
+F              G         C     G
 Čirdta čoren maδ ɣacen, ku lo?
-
+•
+C
 Zindagê farq az fuk sůgen
+G             Am
 Čordor, siyo cem-virůɣ̌en
+F              G          C    G
 Čirdta čoren maδ ɣacen, ku lo?
-
+•
+C
 At yuyo az sinfê čorand
+G            Am
 Gul wamard ẋikirt bozorand
+F                G         C    G
 Δid xu jůn mis — nalakiẋt pê xu
-
+•
+C   
 At vidoyê wam we rafiq vud
+G          Am
 Důnjat bozorê xarid čid
+F              G         C     G
 Čirdta čoren maδ ɣacen, ku lo?
-
+•
+C
 Dunyotê išq dê diruɣ sut
+G          Am
 Disaϑ daryo tirinê buɣ sut
+F              G        C   G
 Pas buzurgê murd divest iwu
-
+•
+C
 Satul ika daf sado pas
+G       Am
 Bemanê Mawlo niko pas
-Čirdta čoren maδ ɣacen, ku lo?`,
+F              G         C     G
+Čirdta čoren maδ ɣacen, ku lo? `,
     strumming: "D D U U U D D U"
   },
   {
@@ -524,44 +551,76 @@ Bemanê Mawlo niko pas
     audio: "audio/Vo_zimiston_vo_Kharagh.mp3",
     chords: "Am Dm E", 
     lyrics: `
+Am
 Vo zimistůn, vo Xaraɣ
+             Dm
 Ẋabata mast, voyum uz
+              E
 Vo ẋitêrʓen, vo tu dargo
+          Am
 Vo pê tu dargoyum uz
-
+•
+Am
 At Xaraɣard nist yê banda
+             Dm
 Ɣayrê bêsoib kaden
+              E
 Woẋum at senum xuyat
+           Am
 Wev kaden amroyum uz
-
+•
+Am
 Nay, uzum ošiqê nist
+            Dm
 Masam awas mund tar kaxoy
+                   E
 Masteyandum zimc tar zimc
+             Am
 Wêδ tar wêδ, ẋoy pê ẋoy
-
+•
+Am
 Go ijoyand gir sam
+            Dm
 Gota tim tar iga joy
+                   E
 Bum jino, meϑin pê čidat
+              Am
 Ẋab dê sut, arjoyum uz 
-
+•
+Am
 Vo zimistůn, vo Xaraɣ
+              Dm
 Ẋabata mast, voyum uz
+              E
 Vo ẋitêrʓen, vo tu dargo
+          Am
 Vo pê tu dargoyum uz
-
+•
+Am
 At Xaraɣard nist yê banda
+              Dm
 Ɣayrê bêsoib kaden
+              E
 Woẋum at senum xuyat
+            Am
 Wev kaden amroyum uz
-
+•
+Am
 Uz Lidušard lům, nistat
+               Dm
 Ošiqen darδand kasal 
+                 E
 Uz Lidušard lům, mazin
+            Am
 Tu xubaϑ xu be ajal
-
+•
+Am
 Uz Lidušard lům, girsa
+             Dm
 Girsa, waxt yastê ɣal
+              E
 Ganda ošiq, kalta saglag
+          Am
 Ɣula beparwoyum uz `,
     strumming: "D D U U D U"
   },
