@@ -164,7 +164,7 @@ main {
 }
 
 .box {
-  background-color: #fafafa;
+  background-color: #f1f1f1;
   padding: 15px;
   border-radius: 8px;
   box-sizing: border-box;
@@ -558,7 +558,7 @@ body.dark footer {
 body.dark .song-list,
 body.dark .song-content,
 body.dark .box {
-  background: #1f1f1f;
+  background: #020202;
   color: #eee;
 }
 
@@ -1352,6 +1352,46 @@ body.dark .tg-btn {
 }
 
 
+body.dark #song-strumming {
+  background: #1f1f1f;
+  border-radius: 12px;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08);
+}
+/* Основной текст под стрелками */
+body.dark #song-strumming span {
+  color: #e0e0e0;
+}
+
+/* Подписи под стрелками */
+body.dark #song-strumming .explanation,
+body.dark #song-strumming small {
+  color: #9e9e9e;
+  font-weight: 500;
+}
+
+/* Немного воздуха */
+body.dark #song-strumming {
+  padding: 18px;
+}
+body.dark #song-strumming span.down { 
+  color: #ff6b6b; 
+}
+
+body.dark #song-strumming span.up { 
+  color: #4dabf7; 
+}
+
+body.dark #song-strumming span.bass { 
+  color: #69db7c; 
+}
+#song-strumming span {
+  gap: 4px;
+}
+
+#song-strumming small {
+  font-size: 11px;
+  letter-spacing: 0.3px;
+}
 
 
 
