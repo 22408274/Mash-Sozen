@@ -87,7 +87,7 @@ header nav a:hover {
   background: #fff;
   color: #4a4a4a;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 0.9em;
   border-radius: 8px;
   text-decoration: none;
   transition: 0.3s;
@@ -1394,13 +1394,18 @@ body.dark #song-strumming span.bass {
   .features-list {
     display: flex;
     flex-direction: column;
-    align-items: center;   /* центрируем только на мобиле */
+    align-items: center;
     gap: 20px;
+
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .feature-item {
-    width: 100%;
-    max-width: 420px;      /* одинаковая ширина */
+    width: calc(100% - 32px); /* компенсируем отступы */
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
