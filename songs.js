@@ -378,7 +378,7 @@ Ar zamin at pe osmůn
     lyrics: `
  C                         Em
 Murdê mam dunyotê sar bad yenaken
- C                    Em
+C                     Em
 Wāδ calůven rostê fuk pê cemaken
 Am                        G
 Wāδ naδen yakbor mu fand, mardum jino
@@ -485,14 +485,14 @@ C
 Ar yenakard xu kallāyum
 G        Am        
 Ajab bamazā ɣiδayum
-F              G         C     G
+F              G           C   G
 Čirdta čoren maδ ɣacen, ku lo?
 •
 C
 Zindagê farq az fuk sůgen
 G             Am
 Čordor, siyo cem-virůɣ̌en
-F              G          C    G
+F              G           C   G
 Čirdta čoren maδ ɣacen, ku lo?
 •
 C
@@ -506,14 +506,14 @@ C
 Manoyê ikdizga koren
 G           Am
 Yanê xubaϑta xurd čoren
-F              G         C     G
+F              G           C   G
 Čirdta čoren maδ ɣacen, ku lo?
 •
 C
 Zindagê farq az fuk sůgen
 G             Am
 Čordor, siyo cem-virůɣ̌en
-F              G          C    G
+F              G           C   G
 Čirdta čoren maδ ɣacen, ku lo?
 •
 C
@@ -527,7 +527,7 @@ C
 At vidoyê wam we rafiq vud
 G          Am
 Důnjat bozorê xarid čid
-F              G         C     G
+F              G           C   G
 Čirdta čoren maδ ɣacen, ku lo?
 •
 C
@@ -541,7 +541,7 @@ C
 Satul ika daf sado pas
 G       Am
 Bemanê Mawlo niko pas
-F              G         C     G
+F              G           C  G
 Čirdta čoren maδ ɣacen, ku lo? `,
     strumming: "D D U U U D D U"
   },
@@ -778,7 +778,575 @@ Arůd mu qismat at mu yor at umrê
 Ɣayrê Pomir nist joydodê bidê
     `,
     strumming: "D D U U D U"
+  },
+  {
+    title: "Zird gulen",
+    author: "Umed Ashrafbekov",
+    audio: "audio/Zirg_gulen.mp3",
+    chords: "Am F E Dm", 
+    lyrics: `
+PRIPEV
+Am              F
+Lūven “xuthmand moye wine 
+E         Am
+Id podexhoye”
+Am            F
+Uzum xuthmand daryo wint
+E        Am
+Amo be moye
+•
+2x
+Dm
+Uzum xuthmand daryo wint
+               Am
+Tut vad az we ruy
+2x
+Am        F
+Sarakeyum de mane pexhst
+E          Am
+Lūden “judoye”
+•
+2x
+Dm
+Zird gulenen vad tu mithust
+             Am
+Patewdat tar mu
+2x
+ Am            F
+Guyo wath zird gulenen 
+E        Am
+Tu bewafoye
+•
+PRIPEV
+Am              F
+Lūven “xuthmand moye wine 
+E         Am
+Id podexhoye”
+Am            F
+Uzum xuthmand daryo wint
+E        Am
+Amo be moye
+•
+2x
+Dm            
+Mu paleyandat tu de vad
+             Am
+Ichizga nist bakor
+2x 
+Am          F
+Naxo ya daryoye xhichuxht 
+E          Am
+Mash oxhenoye?
+•
+PRIPEV
+Am              F
+Lūven “xuthmand moye wine 
+E         Am
+Id podexhoye”
+Am            F
+Uzum xuthmand daryo wint
+E        Am
+Amo be moye
+•
+2x
+Dm
+Uzum xuthmand daryo wint
+               Am
+Tut vad az we ruy
+2x
+Am        F
+Sarakeyum de mane pexhst
+E          Am
+Lūden “judoye”
+    `,
+    strumming: "D D U U D U"
+  },
+  {
+    title: "Lola",
+    author: "Sashi Zaifi",
+    audio: "audio/Lola.mp3",
+    chords: "Am G Dm F ", 
+    lyrics: `
+Am          G             Am
+Ay, mu cemê nur, mu jismê jůn
+Am        G            Am
+Ay parandayê boɣ at bustůn
+Dm                       F
+Kin parwoz ukmand-ukmandêyaϑ
+G               Am       
+Ar mê Kuistůnê Badaxšůn
+•
+Am      
+Ay, Lolā
+G     
+Ay, Lolā
+Am      
+Ay, Lolā
+Am               G         Am
+Na tut yoš at na uz šunzda solā
+Dm                      F          
+Judoyê sut nasib mašard az qismat,
+3x
+G
+Awolā
+•
+Am        G          Am   
+Tiramo mê boɣ darunê ded
+Am           G          Am
+Ya daryo mis yax pibirê red
+Dm                        F
+Boɣta gul kiẋt, yaxta sůd ob
+G                       Am
+At mu ɣunjta rist lapaϑ safed
+•
+Am      
+Ay, Lolā
+G     
+Ay, Lolā
+Am      
+Ay, Lolā
+Am               G         Am
+Na tut yoš at na uz šunzda solā
+Dm                      F          
+Judoyê sut nasib mašard az qismat
+    `,
+    strumming: "D U U D U"
+  },
+  {
+    title: "Carāngum tu žiw",
+    author: "Baboš",
+    audio: "audio/Carangum_tu_zhiwj.mp3",
+    chords: "Em D C ", 
+    lyrics: ` 
+Em                  
+Zaxmê darδ — mu dilandta yu rist
+ D
+Tu wintowandta mu dil piδist
+C             D        Em
+Qiwdow rimim, lůven ya nist
+Em                 
+Lůvdta ya ‘žiwjum uz tu’
+D
+Mu ẋaben natêen be tu 
+C                        D
+Nakinum dê iss, mu dilta piδist 
+
+•PRIPEV
+Em         D          C
+Tuta famê, tuta lůve, tu mu issê
+Em      D          C
+Mê mu dil sado tu ẋinê
+            Em
+Carangum tu žiwj
+   D             C
+O-o-o, lay-la-la-la-la-lay
+•
+Em             
+Žiwjta uz yabor kinum
+D
+Yakborga dê turd lůvum
+C            D         Em
+Malāk tu mu, ẋab qin be tu
+Em               
+Yam mu ẋab, be tu qin sůd
+D
+Mu yuẋken — osmůn, be tu nůd
+C                      D
+Malāk tu mu, žiwjum uz tu
+
+•PRIPEV
+Em         D          C
+Tuta famê, tuta lůve, tu mu issê
+Em      D          C
+Mê mu dil sado tu ẋinê
+            Em
+Carangum tu žiwj
+   D             C
+O-o-o, lay-la-la-la-la-lay
+    `,
+    strumming: "D U B D U"
+  },
+  {
+    title: "Salūmam chud",
+    author: "Manzura Bakhronova",
+    audio: "audio/Salomam_chud.mp3",
+    chords: "Am F Dm E", 
+    lyrics: `
+Am
+Salūmam chud
+
+Baelayum wam sado xhud
+        F
+Salūmam chud
+Yuxhk az wam cemenand zibud
+•
+        Dm
+Salūmam chud
+        E
+At thod bayoth guzashta sol
+         Dm      E
+Ish fikreen ata xayol
+ Am
+Archiz cavud 
+E
+Archiz cavud 
+•
+Am
+Chisum tar wam
+
+Wame xayol de yod daroz
+              F
+Yothd wam tar cem
+
+Ya ghal murd kixht xu dile roz
+•
+           Dm
+Ya ghal natizd
+       E
+Uz nakinum wam besamar
+          Dm         E
+Ya ghal nasūd az xu xabar
+        Am
+Nayothd baxud
+        E 
+Nayothd baxud
+•
+        Am
+Nayothd baxud    
+    `,
+    strumming: "D U U D U"
+  },
+  {
+    title: "Mawloyard",
+    author: "Sashi Zaifi",
+    audio: "audio/Mawloyard.mp3",
+    chords: "Am G F E Dm", 
+    lyrics: `
+Am      
+Jůn, ay jůnako
+         G
+Azor jůn mis tanand cavid
+           F     G
+Tu pêroyat murd, aziz
+        Am
+Tu pêroyat mund
+•
+Am
+Tu, tut δarêzor
+       G 
+Arjoca δarat az zamin
+          F     G
+Darawoyat murd, aziz
+          Am
+Darawoyat mund
+•
+Am  G
+Go abrêen
+     Am       E
+Čust kinen osimůn xu
+Dm       E      F
+Qibla tu murd nadivest
+G              Am
+Xu ɣubor darun cabest
+          E
+Falak mis famt
+•
+Am
+Uz artarafê
+      G
+Dunyo kinum xu pic aga
+           F     G
+Kulê joyat murd, aziz
+           Am
+Kulê joyat mund
+•
+Am
+Tu, tut δarêzor
+       G 
+Arjoca δarat az zamin
+          F     G
+Darawoyat murd, aziz
+          Am
+Darawoyat mund
+•
+Am      
+Jůn, ay jůnako
+         G
+Azor jůn mis tanand cavid
+           F     G
+Tu pêroyat murd, aziz
+        Am
+Tu pêroyat mund
+•
+Am        F
+Yast lůvd čidům
+     Am          E
+Yo xubaϑ yast tu lůvê
+Dm          E       F
+Nay, nay, uzum nist Xuδoy
+G                Am         E 
+Xu čidůmga pokdê joy divesê murd
+•
+Am   
+Ůn, δarum az din
+G
+Amo mu dil pê tu yaqin
+           F     G
+Tu Xuδoyat murd, aziz
+           Am
+Tu Xuδoyat mund
+•
+Am      
+Jůn, ay jůnako
+         G
+Azor jůn mis tanand cavid
+           F     G
+Tu pêroyat murd, aziz
+        Am
+Tu pêroyat mund
+•
+Am
+Tu, tut δarêzor
+       G 
+Arjoca δarat az zamin
+          F     G
+Darawoyat murd, aziz
+          Am
+Darawoyat mund   
+    `,
+    strumming: "D D U U U D D U"
+  },
+  {
+    title: "Malo murd nay",
+    author: "Firuzen",
+    audio: "audio/Malo_murd_nay.mp3",
+    chords: "Am G F E ", 
+    lyrics: `
+Am
+Malo murd ‘nay-nay-nay’
+          G
+Az xu xez mak mu ay
+     F                      E
+Uz navarδim mê ijrůn toqat čidow
+          Am
+Az mu mak ay-ay-ay
+      G
+Makin yor šič mu pê may
+       F                    E
+Nafort murd mayxuna at soqê wintow
+•
+Am              G
+Cůndaϑ ẋaben tu fikrêenand sārum
+F                   E
+Meϑ sůd — az tu nawinum
+Am                  G
+Čizard az išq lapaϑ gapen turd lůvum
+F                      E
+Az tu yê ‘nay’ důnd ẋinum
+•
+Am
+Malo murd ‘nay-nay-nay’
+          G
+Az xu xez mak mu ay
+     F                      E
+Uz navarδim mê ijrůn toqat čidow
+          Am
+Az mu mak ay-ay-ay
+      G
+Makin yor šič mu pê may
+       F                    E
+Nafort murd mayxuna at soqê wintow
+•
+Am                G
+Uz tu xayoland az fukčiz rinêsum
+F                 E
+Wev tu gapen fikrêyum 
+Am                G
+Mund mam dunyondê awas tar tu důnd 
+F                        Am                        
+At az tu yê ‘nay’ důnd ẋinum `,
+    strumming: "D U B D U"
+  },
+  {
+    title: "Ar tu bogh",
+    author: "Baboš",
+    audio: "audio/Ar_tu_bogh.mp3",
+    chords: "Am F G E Dm ", 
+    lyrics: `
+2x
+Am
+Tu çemenen dis malol 
+
+Khafa yat qinezor
+F
+Igayardat lovj tu ůn
+E
+Shichat az khu kor ẋemůn
+Am
+Shich tu dil suthj thu taqsim 
+         
+Nafame chi kate vim
+F
+Tar tu dil půnd ça na verim 2X
+E
+Lakin mu lakin uz tim 2X
+•
+F
+Ma zhoz we damte 
+E
+Yu be tuyath xush
+F
+Xush mis turd ça vid
+E
+Oqibat tund nist 
+•
+*2
+Am
+Kaye kaye kaye 
+ 
+Mastum uz shich kaye
+F
+Zhiwjgakhe dis khakh mu chuj  
+E
+Nomus ca nist yamand joy 
+•
+Am
+Lůdat murd derat tu yat
+
+Dizga qin wext mu qismat 
+F
+Naboft waxt vido ar zebo 
+E
+Toqayum uz rethj be tu 
+•
+Am
+Shich nafamum chir chidow
+
+Az tu fikre qin vido
+F
+Naboft waxt vido ar zebo
+E
+Toqayum uz rethj be tu 
+•
+F
+Na kinum xoiẋ 
+E
+Uz duyum vidow
+F
+Thu qadam ta zem 
+E
+Uz khu tar zebo
+•
+*2
+Am
+Lake lake lake 
+
+Qin tu mu shich make
+F
+Make make make 
+E
+Mu fikre tu makê 
+•
+*2
+Am
+Masham yakdigar qate
+F
+Na winam ta mash qine
+G
+Uz ta timat tar mu chise
+Am
+Tu kal tu birand nawe 
+•
+Dm
+Mashta tiyam ĝaribe
+Am
+Be tuyath murd lap qine
+Dm
+Xo yothand mu anjave
+Am
+Lap mu fikre tu make
+Am            E
+Thu solandam judo
+               Am
+Bade thu solam yakjo
+•
+*2
+Am
+Tar tu çemen uz chisum 
+F
+Tu ishqand ta uz thaum
+G
+Tu diland fuk waxt veyum 
+Am
+Tut mu ça zhiwj nith pe mo 
+•
+Dm
+Mashta tiyam ĝaribe
+Am
+Be tuyath murd lap qine
+Dm
+Xo yothand mu anjave
+Am
+Lap mu fikre tu make
+Am            E
+Thu solandam judo
+               Am
+Bade thu solam yakjo
+•
+Am          Dm                 Am
+Lalay lalay laylay lalay lalay laylay
+  E                         Am
+Lalay lalay lay lay lalay lalaaaaay
+•
+Am
+Ar tu bogh chaxbuçaken 2x
+        Dm          E
+Nafamum wath chi buçen 
+        Am
+Nafamum wath chi buçen 
+•
+*2
+Am        G
+Ola la la la 
+          Am
+Ola la la la
+•
+*2
+Am
+Wintowe tuyum
+           Dm 
+Zaraye wintowe tu mund nist
+  G
+Az daste tu ar bogh
+   Am
+Pe pandak khu pishewum *2
+
+*2
+Am        G
+Ola la la la 
+          Am
+Ola la la la
+•
+Am
+Sifidom pe dam dara
+      
+Pe dam dara pe dam dara
+Dm
+Sirat piyoz
+G
+Sanamjůn sam tu qabul 
+Am
+Sam tu niyoz
+
+*2
+Am        G
+Ola la la la 
+          Am
+Ola la la la  
+    `,
+    strumming: "D D U U U D D U"
   }
+
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -807,50 +1375,72 @@ if (songContent) {
   }
 
   function renderSongList(filter = "") {
-    songListEl.innerHTML = "";
+  songListEl.innerHTML = "";
 
-    const grouped = groupByArtist(songs);
-    const search = filter.toLowerCase();
+  const grouped = groupByArtist(songs);
+  const search = filter.toLowerCase();
 
-    Object.entries(grouped).forEach(([artist, artistSongs]) => {
-      const filteredSongs = artistSongs.filter(song =>
-        song.title.toLowerCase().includes(search)
+  const sortedArtists = Object.keys(grouped).sort((a, b) =>
+    a.localeCompare(b, 'en', { sensitivity: 'base' })
+  );
+
+  sortedArtists.forEach(artist => {
+    const artistLower = artist.toLowerCase();
+
+    const sortedSongs = grouped[artist]
+      .slice()
+      .sort((a, b) =>
+        a.title.localeCompare(b.title, 'en', { sensitivity: 'base' })
       );
 
-      if (filteredSongs.length === 0) return;
+    // 🔍 если поиск совпал с именем исполнителя
+    const artistMatch = artistLower.includes(search);
 
-      const artistBlock = document.createElement("div");
-      artistBlock.className = "artist-block";
+    // 🔍 если поиск совпал с названием песни
+    const filteredSongs = sortedSongs.filter(song =>
+      song.title.toLowerCase().includes(search)
+    );
 
-      const artistName = document.createElement("div");
-      artistName.className = "artist-name";
-      artistName.textContent = artist;
+    // ❌ если ничего не совпало — не показываем
+    if (!artistMatch && filteredSongs.length === 0) return;
 
-      const songUl = document.createElement("ul");
-      songUl.className = "artist-songs";
-      songUl.style.display = "none";
+    const artistBlock = document.createElement("div");
+    artistBlock.className = "artist-block";
 
-      artistName.addEventListener("click", () => {
-        songUl.style.display =
-          songUl.style.display === "none" ? "block" : "none";
-      });
+    const artistName = document.createElement("div");
+    artistName.className = "artist-name";
+    artistName.textContent = artist;
 
-      filteredSongs.forEach(song => {
-        const li = document.createElement("li");
-        li.textContent = song.title;
+    const songUl = document.createElement("ul");
+    songUl.className = "artist-songs";
 
-        li.addEventListener("click", () => {
-          loadSong(song);
-        });
+    // ✅ если совпал артист — показываем все песни
+    // ✅ если совпала песня — показываем только совпавшие
+    const songsToShow = artistMatch ? sortedSongs : filteredSongs;
 
-        songUl.appendChild(li);
-      });
+    songUl.style.display = search ? "block" : "none";
 
-      artistBlock.appendChild(artistName);
-      artistBlock.appendChild(songUl);
-      songListEl.appendChild(artistBlock);
+    artistName.addEventListener("click", () => {
+      songUl.style.display =
+        songUl.style.display === "none" ? "block" : "none";
     });
-  }
+
+    songsToShow.forEach(song => {
+      const li = document.createElement("li");
+      li.textContent = song.title;
+
+      li.addEventListener("click", () => {
+        loadSong(song);
+      });
+
+      songUl.appendChild(li);
+    });
+
+    artistBlock.appendChild(artistName);
+    artistBlock.appendChild(songUl);
+    songListEl.appendChild(artistBlock);
+  });
+}
 
   searchInput.addEventListener("input", e => {
     renderSongList(e.target.value);
@@ -876,6 +1466,13 @@ function loadSong(song) {
     audio.load();
   }
   document.getElementById("songContent").classList.remove("hidden");
+setTimeout(() => {
+  document.getElementById("songContent").scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+}, 100);
+
 }
 
 function renderChords(chordsText) {
@@ -951,6 +1548,46 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.textContent = songContent.classList.contains("fake-fullscreen")
       ? "❌ Naẋtido"
       : "⛶ Polni ekran";
+  });
+});
+document.addEventListener("DOMContentLoaded", () => {
+  const backBtn = document.getElementById("back-to-list");
+  const songList = document.querySelector(".song-list");
+
+  if (!backBtn || !songList) return;
+
+  backBtn.addEventListener("click", () => {
+    songList.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+  });
+});
+document.addEventListener("DOMContentLoaded", () => {
+  const scrollBtn = document.getElementById("scroll-top-btn");
+
+  if (!scrollBtn) return;
+
+  scrollBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+});
+document.addEventListener("DOMContentLoaded", () => {
+  const scrollBtn = document.getElementById("scroll-top-btn");
+  if (!scrollBtn) return;
+
+  window.addEventListener("scroll", () => {
+    scrollBtn.style.display = window.scrollY > 300 ? "flex" : "none";
+  });
+
+  scrollBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
   });
 });
 
