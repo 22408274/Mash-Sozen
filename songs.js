@@ -1431,8 +1431,17 @@ if (songContent) {
       li.textContent = song.title;
 
       li.addEventListener("click", () => {
-        loadSong(song);
-      });
+  // 🔔 Google Analytics: клик по песне
+  if (typeof gtag === "function") {
+    gtag("event", "song_click", {
+      song_title: song.title,
+      song_author: song.author,
+      page: "songs"
+    });
+  }
+
+  loadSong(song);
+});
 
       songUl.appendChild(li);
     });
