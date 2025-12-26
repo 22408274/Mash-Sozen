@@ -1394,15 +1394,12 @@ if (songContent) {
         a.title.localeCompare(b.title, 'en', { sensitivity: 'base' })
       );
 
-    // 🔍 если поиск совпал с именем исполнителя
     const artistMatch = artistLower.includes(search);
 
-    // 🔍 если поиск совпал с названием песни
     const filteredSongs = sortedSongs.filter(song =>
       song.title.toLowerCase().includes(search)
     );
 
-    // ❌ если ничего не совпало — не показываем
     if (!artistMatch && filteredSongs.length === 0) return;
 
     const artistBlock = document.createElement("div");
@@ -1415,13 +1412,17 @@ if (songContent) {
     const songUl = document.createElement("ul");
     songUl.className = "artist-songs";
 
-    // ✅ если совпал артист — показываем все песни
-    // ✅ если совпала песня — показываем только совпавшие
     const songsToShow = artistMatch ? sortedSongs : filteredSongs;
 
     songUl.style.display = search ? "block" : "none";
 
     artistName.addEventListener("click", () => {
+      if (typeof gtag === "function") {
+    gtag("event", "artist_click", {
+      artist_name: artist,
+      page: "songs"
+    });
+  }
       songUl.style.display =
         songUl.style.display === "none" ? "block" : "none";
     });
@@ -1431,7 +1432,6 @@ if (songContent) {
       li.textContent = song.title;
 
       li.addEventListener("click", () => {
-  // 🔔 Google Analytics: клик по песне
   if (typeof gtag === "function") {
     gtag("event", "song_click", {
       song_title: song.title,
