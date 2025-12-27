@@ -1346,14 +1346,77 @@ Ola la la la
 Ola la la la  
     `,
     strumming: "D D U U U D D U"
-  }
-
+  },
+  {
+    title: "Tut yê Layli",
+    author: "Boris Jurabekov",
+    audio: "audio/Tut_ye_Layli.mp3",
+    chords: "Am Em F C G ", 
+    lyrics: ` 
+  Am
+Tut yê Layli xu, besamar mu kinê
+         Em
+Tu pê Majnun barobar mu kinê
+        F
+Δar agar δim az tu, nawê tu
+        C
+Sam qaribat, tuta vo δar mu kinê
+G
+Δar mu kinê
+•
+ Am
+Zindagê, soz jinow, širin yam
+                   Em
+Gota šod sůd at go ɣamgin yam
+        F
+Go yê, jumla jinow, rinêsê mu
+        C
+Gota az oxirand sar mu kinê
+G
+Sar mu kinê
+•
+  Am
+Tut yê Layli xu, besamar mu kinê
+         Em
+Tu pê Majnun barobar mu kinê
+        F
+Δar agar δim az tu, nawê tu
+        C
+Sam qaribat, tuta vo δar mu kinê
+G
+Δar mu kinê
+•
+ Am
+Gota, kudak jinow, rinêwê mu
+                    Em
+Gota, duẋman jinow, sirêwê mu
+        F
+Gota bo narxê jůn xaritê mu
+      C
+Gota bepul ičird bār mu kinê
+G
+Bār mu kinê
+•
+  Am
+Tut yê Layli xu, besamar mu kinê
+         Em
+Tu pê Majnun barobar mu kinê
+        F
+Δar agar δim az tu, nawê tu
+        C
+Sam qaribat, tuta vo δar mu kinê
+G
+Δar mu kinê
+    `,
+  
+    strumming: "D D U U U D D U"
+    }
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
   const songContent = document.getElementById("songContent");
 if (songContent) {
-  songContent.classList.add("hidden"); // скрываем при первом входе
+  songContent.classList.add("hidden"); 
 }
 
   const songListEl = document.getElementById("song-list");
