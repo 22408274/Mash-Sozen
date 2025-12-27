@@ -1410,7 +1410,78 @@ G
     `,
   
     strumming: "D D U U U D D U"
-    }
+    },
+  {
+    title: "Zindagê az naw casůd sar",
+    author: "Liduš Abib",
+    audio: "audio/Zindage_az_naw_ca_sod_sar.mp3",
+    chords: "Am E Dm", 
+    lyrics: ` 
+Am
+Zindagê az naw casůd sar
+                 E
+Tuyum jaůnard ẋikiɣ̌jat
+                    Dm
+Suδjatum fukjoy qalandar
+               E
+Tůnecum tu naviruɣ̌jat
+•
+Am
+Zindagê az naw casůd sar
+                      E
+Turd qasam xam, tu kê bowar
+                   Dm
+Ɣayrê tu, tar diga ɣacen
+                 E
+Argizum awas načuɣ̌jat
+•
+Am
+Zindagê az naw casůd sar
+                 E
+Tuyum jaůnard ẋikiɣ̌jat
+                    Dm
+Suδjatum fukjoy qalandar
+               E
+Tůnecum tu naviruɣ̌jat
+•
+Am
+Zindagê az naw casůd sar
+                E
+Osmůn nazdik yo δar
+                  Dm
+Turdum uz az osmůn tir
+                E
+Δu-aray ẋitêrʓ vuɣ̌jat
+•
+Am
+Zindagê az naw casůd sar
+                 E
+Tuyum jaůnard ẋikiɣ̌jat
+                    Dm
+Suδjatum fukjoy qalandar
+               E
+Tůnecum tu naviruɣ̌jat
+•
+Am
+Zorêyum čujat pê Mawlo
+                E
+Čujatê tu murdê peδo
+               Dm
+Tujatum uz ostůntir
+                   E
+Xu dil at xu jůn ribuɣ̌jat
+•
+Am
+Zindagê az naw casůd sar
+                 E
+Tuyum jaůnard ẋikiɣ̌jat
+                    Dm
+Suδjatum fukjoy qalandar
+               E
+Tůnecum tu naviruɣ̌jat
+    `,
+    strumming: "D U B D U "
+  }
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -1538,6 +1609,15 @@ function loadSong(song) {
     audio.src = song.audio;
     audio.load();
   }
+  const downloadButton = document.createElement('button');
+  downloadButton.textContent = "Скачать MP3";
+  downloadButton.classList.add('download-btn');
+  downloadButton.onclick = () => {
+    const link = document.createElement('a');
+    link.href = song.audio;
+    link.download = song.title + ".mp3"; 
+    link.click();
+  };
   document.getElementById("songContent").classList.remove("hidden");
 setTimeout(() => {
   document.getElementById("songContent").scrollIntoView({

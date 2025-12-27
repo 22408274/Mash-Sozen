@@ -153,3 +153,18 @@ document.addEventListener("DOMContentLoaded", () => {
     adminLink.style.display = "block";
   }
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const scrollBtn = document.getElementById("scroll-top-btn");
+  if (!scrollBtn) return;
+
+  window.addEventListener("scroll", () => {
+    scrollBtn.style.display = window.scrollY > 300 ? "flex" : "none";
+  });
+
+  scrollBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+});
